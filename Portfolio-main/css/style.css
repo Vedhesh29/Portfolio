@@ -1,0 +1,425 @@
+html{
+    scroll-behavior: smooth;
+   
+}
+
+body{
+    background-color: #EBF2FA;
+    margin: 0px;
+    cursor: url("https://icon-library.com/images/view-more-icon/view-more-icon-0.jpg"), default;
+    
+}
+
+header{
+    height: 80px;
+    background-color: #427AA1;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: white;
+}
+
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 100%;
+}
+
+section .text{
+    background-color: #535353;
+    display: block;
+    color: white;
+}
+
+
+header .logo{
+    display: inline-block;
+    font-size: 50px;
+    padding-left: 50px;
+    font-family: 'Oswald', sans-serif;  
+}
+
+header .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+header .logo .parentheses{
+    letter-spacing: 5px;
+}
+
+header nav{
+    display: inline-block;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 24px;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+header nav ul li a:hover{
+    color: #F8F991;
+}
+
+section.hero{
+    position: relative;
+   
+}
+
+section.hero img{
+    width: 100%;
+    height: 1000px;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.content .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    text-align: center;
+}
+
+.content h1{
+    color: white;
+    margin: 0px;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0px;
+    animation:normal;
+}
+
+.content p{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 200px;
+}
+
+
+section.photo{
+    padding: 85px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+section.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px
+}
+
+section.aboutMe p{
+    font-family: 'Arima', cursive;
+    margin: 30px 0px;
+}
+
+section.title hr{
+    border: none;       
+    border-top: 5px solid #05668D;
+    width: 90px;
+}
+
+
+section.my_works h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 75px;
+    margin: 0px;
+    font-family: Oswald, 'sans-serif';
+    
+}
+
+section.my_works hr{
+    border: none;
+    border-top: 5px solid #05668D;
+    width: 90px;
+}
+
+section.my_works .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 8px;
+    
+}
+
+section.my_works .container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 8px;
+    padding-bottom: 10px;
+}
+
+
+/*https://prezi.com/view/bRGHlxmYFNWyUdAUrVnj/*/
+section.my_works .works-slider .work{
+    border-radius: 8px; 
+    border: 1px solid #3E3E3E; 
+    width: 33%;
+    text-align: center;
+    margin: 20px 8px;
+    padding: 40px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.my_works .works-slider .work img{
+    max-width: 90%;
+    
+}
+
+
+section.my_works .works-slider .work button{
+    height: 50px;
+    width: 219.5px;
+    border-radius: 220px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    border: 1px solid #000;
+    background-color: white;
+    box-shadow: inset 0 0 0 0 #56A3A6;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+
+section.my_works .works-slider .work button:hover{
+    box-shadow: inset 219.5px 0 0 0 #56A3A6;
+    cursor: pointer;
+    color: white;
+}
+
+section.my_works .works-slider .work dialog h2{
+    padding-top: 0;
+}
+
+
+section.title h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 75px;
+    margin: 0px;
+    font-family: Oswald, 'sans-serif';
+    
+}
+
+section.skills{
+    padding-bottom: 30px;
+}
+
+
+section.skills h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 75px;
+    margin: 0px;
+    font-family: Oswald, 'sans-serif';
+    
+}
+
+
+section.skills hr{
+    border: none;
+    border-top: 5px solid #05668D;
+    width: 90px;
+}
+
+section.skills .skills_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+section.skills .title{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+section.skills .skills_list img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+section.skills .skills_list .skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.skills .skills_list p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+section.contactMe h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 75px;
+    margin: 0px;
+    font-family: Oswald, 'sans-serif';
+}
+
+section.contactMe hr{
+    border: none;
+    border-top: 5px solid #05668D;
+    width: 90px; 
+    padding-bottom: 50px;
+}
+
+section.contactMe .input-area{
+    position: relative;
+    text-align: center;
+   
+}
+
+section.contactMe .input-area .boxes{
+    position: absolute;
+    top:10%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px 20px;
+}
+
+section.contactMe .input-area .field{
+    width: 400px;
+    height: 50px;
+    padding: 0px;
+    border-width: 0px;
+    margin: 15px 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    border: 1px solid #000;
+}
+
+section.contactMe .input-area .field:first-of-type{
+    margin-top: 0px;
+}
+
+section.contactMe .input-area .message::placeholder{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+section.contactMe .input-area .message{
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    border: 1px solid #000;
+}
+
+
+section.contactMe .input-area button{
+    height: 50px;
+    width: 400px;
+    border-radius: 220px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    border: 1px solid #000;
+    background-color: white;
+    box-shadow: inset 0 0 0 0 #FDE74C;
+    transition: ease-out 0.3s;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+section.contactMe .input-area button:hover{
+    box-shadow: inset 400px 0 0 0 #FDE74C;
+    cursor: pointer;
+}
+
+
+section.contactMe .contact-box img{
+    position: relative;
+    width: 100%;
+}
+
+textarea{
+    width: 400px;
+    height: 120px;
+    padding: 0px;
+    border-width: 0px;
+    margin: 20px 20px;
+
+}
+
+
+
+footer p {
+    color: white;
+    background-color: #535353;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+  
+ 
+
